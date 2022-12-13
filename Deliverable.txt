@@ -1,0 +1,151 @@
+--------------testing query: what similarity laws must be obeyed when constructing aeroelastic models of heated high speed aircraft . -----------------
+-------testing default retrieval model-------
+DEFAULT THROUGHPUT AT 30:  15.992183873439137
+1 Current doc: 51
+relevant doc found 51.json at index1
+2 Current doc: 12
+relevant doc found 12.json at index2
+3 Current doc: 184
+relevant doc found 184.json at index3
+4 Current doc: 486
+relevant doc found 486.json at index4
+5 Current doc: 879
+relevant doc found 879.json at index5
+6 Current doc: 878
+7 Current doc: 573
+8 Current doc: 665
+9 Current doc: 13
+relevant doc found 13.json at index9
+10 Current doc: 141
+11 Current doc: 1361
+12 Current doc: 746
+13 Current doc: 359
+14 Current doc: 14
+relevant doc found 14.json at index14
+15 Current doc: 944
+16 Current doc: 747
+17 Current doc: 1268
+18 Current doc: 914
+19 Current doc: 329
+20 Current doc: 876
+relevant doc found 876.json at index20
+21 Current doc: 1340
+22 Current doc: 251
+23 Current doc: 435
+24 Current doc: 102
+relevant doc found 102.json at index24
+25 Current doc: 875
+relevant doc found 875.json at index25
+26 Current doc: 172
+27 Current doc: 792
+28 Current doc: 56
+relevant doc found 56.json at index28
+29 Current doc: 1328
+30 Current doc: 576
+31 Current doc: 453
+32 Current doc: 663
+33 Current doc: 1186
+34 Current doc: 78
+35 Current doc: 526
+36 Current doc: 1003
+37 Current doc: 332
+38 Current doc: 219
+39 Current doc: 1263
+40 Current doc: 36
+41 Current doc: 817
+42 Current doc: 429
+43 Current doc: 252
+44 Current doc: 1042
+45 Current doc: 253
+46 Current doc: 1305
+47 Current doc: 280
+48 Current doc: 1144
+49 Current doc: 717
+50 Current doc: 982
+AP: 0.26670771756978656
+relevant size 29
+
+-------testing OKAPI BM25 retrieval model-------
+OKAPI THROUGHPUT AT 30 4.866579400246324
+1 Current doc: 51
+relevant doc found 51.json at index1
+2 Current doc: 486
+relevant doc found 486.json at index2
+3 Current doc: 573
+4 Current doc: 184
+relevant doc found 184.json at index4
+5 Current doc: 12
+relevant doc found 12.json at index5
+6 Current doc: 329
+7 Current doc: 14
+relevant doc found 14.json at index7
+8 Current doc: 878
+9 Current doc: 1268
+10 Current doc: 665
+11 Current doc: 1361
+12 Current doc: 792
+13 Current doc: 576
+14 Current doc: 944
+15 Current doc: 1003
+16 Current doc: 78
+17 Current doc: 914
+18 Current doc: 1072
+19 Current doc: 141
+20 Current doc: 453
+21 Current doc: 746
+22 Current doc: 172
+23 Current doc: 251
+24 Current doc: 219
+25 Current doc: 1335
+26 Current doc: 36
+27 Current doc: 747
+28 Current doc: 663
+29 Current doc: 13
+relevant doc found 13.json at index29
+30 Current doc: 1263
+31 Current doc: 29
+relevant doc found 29.json at index31
+32 Current doc: 1328
+33 Current doc: 202
+34 Current doc: 879
+relevant doc found 879.json at index34
+35 Current doc: 42
+36 Current doc: 729
+37 Current doc: 1300
+38 Current doc: 526
+39 Current doc: 374
+40 Current doc: 1246
+41 Current doc: 435
+42 Current doc: 252
+43 Current doc: 25
+44 Current doc: 332
+45 Current doc: 1144
+46 Current doc: 717
+47 Current doc: 685
+48 Current doc: 588
+49 Current doc: 195
+relevant doc found 195.json at index49
+50 Current doc: 236
+AP: 0.1764122863675024
+relevant size 29
+
+
+
+
+
+
+-----------------OVERALL RESULTS FOR SEARCH ENGINE-----------------
+default throughput: 0.5463906602140851
+default MRT: 1.8301923382222218
+default MAP: 0.3668067460264186
+tfidf throughput: 0.5499374488924796
+tfidf MRT: 1.8183886222222225
+tfidf MAP: 0.30632672742120265
+OKAPI throughput: 0.09396703211465034
+OKAPI MRT: 10.642030268444444
+OKAPI MAP: 0.35006962811816106
+wacky throughput: 0.150259708108161
+wacky MRT: 6.6551440342222214
+wacky MAP: 0.3568902556948153
+
+
